@@ -7,7 +7,10 @@ int main(int argc, char const *argv[]){
     *p=c;
 printf("Hola mundo\n");
 printf("%i\n", *p);
+printf("%p \n", *p);
+printf("%p \n", c);
 printf("%p \n", p);
+printf("%i\n", sizeof(c));
 
 
 system("pause");
